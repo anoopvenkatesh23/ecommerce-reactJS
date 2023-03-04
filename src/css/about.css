@@ -1,0 +1,9 @@
+.main-color {
+  color: #94a596;
+}
+
+@media only screen and (max-width: 992px) {
+  .remove-flex-sm {
+    display: block !important;
+  }
+}

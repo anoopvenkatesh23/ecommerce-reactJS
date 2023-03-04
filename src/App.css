@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Segoe UI", "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background-color: #94a596;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand {
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.nav-links:hover {
+  text-decoration: none !important;
+  color: #000;
+}
+
+footer {
+  background-color: #94a596;
+}
+
+.list-group,
+.list-group-item {
+  background-color: inherit !important;
+}
+
+.timings table {
+  border-color: #000000;
+}
+
+.timings tr {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.main-color {
+  color: #94a596;
+}
+
+.main-color-bg {
+  background-color: #94a596;
+}
+
+h5 {
+  font-weight: bold !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-section p {
+    padding: 0em !important;
   }
 }

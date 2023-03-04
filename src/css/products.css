@@ -1,0 +1,11 @@
+.product-img1 {
+  background-image: "url(https://loremflickr.com/400/340/bread,book)";
+}
+
+.product-img2 {
+  background-image: "url(https://loremflickr.com/400/340/iceream,book)";
+}
+
+.bg-color-grey {
+  background-color: rgba(0, 0, 0, 0.3);
+}

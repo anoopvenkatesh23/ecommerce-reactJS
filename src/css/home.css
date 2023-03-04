@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+  background: no-repeat center center;
+  background-size: cover;
+  padding-bottom: 5em;
+  height: 80vh;
+}
+
+.main-color {
+  color: #94a596;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1.5625em;
+  color: #94a596;
+  background-color: rgb(0 0 0 / 83%);
+}
+
+.header-text h5 {
+  color: #94a596;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.header-text p {
+  color: #94a596;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-us-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.about-us-section p {
+  font-family: "Segoe UI";
+  color: #000000;
+  padding-left: 9em;
+  padding-right: 9em;
+}
